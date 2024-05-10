@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&family=Roboto+Slab&display=swap");
+body {
+  font-size: 12px;
+  color: #333;
+  font-family: Open Sans, sans-serif;
+}
+.categories {
+  margin: 10px;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.category {
+  border-bottom: 3px solid #00aeef;
+  margin-top: 15px;
+}
+.real {
+  text-align: center;
+  font-size: 17px;
+  border: 1px solid rgb(230, 232, 241);
+  background-color: rgb(242, 243, 246);
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.real-img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  transition: all 0.5s ease-in-out;
+}
+.real-img:hover {
+  opacity: 0.7;
+}
+.lists {
+  list-style-type: none;
+}
+ul li {
+  margin-bottom: 8px;
+}
+ul li a {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  margin: auto;
+  text-align: left !important;
+  place-items: center center;
+}
+
+a {
+  
+  color: #00aeef;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.we {
+  color: #fc8304;
+}
+.we:hover {
+  color: #333;
+}
+@media screen and (min-width: 592px) {
+  .container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .real {
+    width: 240px;
+    height: 430px;
+  }
+  .real-img {
+    width: 100%;
+  }
+}
+.penny {
+  border-bottom: 3px solid #00aeef;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.online {
+  font-size: 20px;
+  color: #00aeef;
+}
+.text {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+  margin-bottom: 15px;
+  margin: 10 0 10px;
+  margin-left: 20px;
+  font-weight: inherit;
+  color: #333;
+}
+.one {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  background-color: rgba(244, 244, 247, 0.985);
+}
+
+.footer-text {
+  margin: 15px auto;
+  color: #4d4d4d;
+  font-size: 14px;
+  text-align: center;
+}
